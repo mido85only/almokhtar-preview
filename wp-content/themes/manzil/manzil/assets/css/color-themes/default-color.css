@@ -22,3 +22,25 @@
     -webkit-box-shadow: 0 0 0 0 rgba(0, 210, 211, .3);
     box-shadow: 0 0 0 0 rgba(0, 210, 211, .3);
 }
+
+.ripple,
+.ripple:before,
+.ripple:after,
+.video-box .ripple,
+.video-box .ripple:before,
+.video-box .ripple:after,
+.play-box .ripple,
+.play-box .ripple:before,
+.play-box .ripple:after,
+.play-btn .ripple,
+.play-btn .ripple:before,
+.play-btn .ripple:after,
+.about-section .image-column .image .video-box .ripple,
+.about-section .image-column .image .video-box .ripple:before,
+.about-section .image-column .image .video-box .ripple:after,
+.video-section .inner-container .video-box .ripple,
+.video-section .inner-container .video-box .ripple:before,
+.video-section .inner-container .video-box .ripple:after {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 210, 211, .6) !important;
+    box-shadow: 0 0 0 0 rgba(0, 210, 211, .6) !important;
+}
