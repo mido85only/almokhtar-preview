@@ -263,3 +263,54 @@
 }
 
 
+
+
+/* ============================================================
+   BRAND HOVER & ACCENT ENFORCEMENT (SALT CYAN & NAVY BLUE)
+   Eliminate any leftover yellow/orange hover states from parent
+============================================================ */
+:root {
+    --main-color: #00D2D3 !important;
+    --main-color-rgb: 0, 210, 211 !important;
+    --two-color: #1A365D !important;
+    --two-color-rgb: 26, 54, 93 !important;
+}
+
+a:hover,
+button:hover,
+.main-menu .navigation > li:hover > a,
+.main-menu .navigation > li.current > a,
+.main-menu .navigation > li > ul > li:hover > a,
+.theme-btn:hover,
+.sec-title h2 span,
+.banner-carousel .content-box h2 span,
+.title-effect .bar,
+.feature-block-two .inner-box:hover .icon-box,
+.service-block-two .inner-box:hover .icon-box,
+.service-block-two .inner-box:hover h3 a,
+.pricing-block .inner-box:hover .price-box,
+.pricing-block .inner-box:hover .theme-btn {
+    color: #00D2D3 !important;
+}
+
+.btn-style-one,
+.theme-btn {
+    background-color: #00D2D3 !important;
+    border-color: #00D2D3 !important;
+}
+
+.btn-style-one:hover,
+.theme-btn:hover {
+    color: #ffffff !important;
+    background-color: #0F172A !important;
+    border-color: #0F172A !important;
+}
+
+.btn-style-one:hover:before {
+    background-color: #0F172A !important;
+}
+
+.main-header.header-style-one .nav-outer:before {
+    background-color: #1A365D !important;
+    background-image: none !important;
+}

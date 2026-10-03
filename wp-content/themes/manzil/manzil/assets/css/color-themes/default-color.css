@@ -1,57 +1,24 @@
 @charset "utf-8";
-
-/* CSS Document */
-
 :root {
-    --main-color: #f7941d;
-    --main-color-rgb: 247, 148, 29;
-}
-:root {
-    --two-color: #febe09;
-    --two-color-rgb: 254, 190, 9;
+    --main-color: #00D2D3;
+    --main-color-rgb: 0, 210, 211;
+    --two-color: #1A365D;
+    --two-color-rgb: 26, 54, 93;
 }
 
-.slider-one__content:before {
-	background: rgb(247, 148, 29);
-	background: linear-gradient(90deg, rgba(247, 148, 29, 1) 26%, rgba(38, 38, 56, 1) 83%);
-}
-
-.page-title__content:before {
-	background: rgb(247, 148, 29);
-	background: linear-gradient(90deg, rgba(247, 148, 29, 1) 26%, rgba(38, 38, 56, 1) 83%);
-}
-
-
-
+.slider-one__content:before,
+.page-title__content:before,
 .project-two__img:before {
-	background: rgb(226, 30, 47);
-	background: linear-gradient(0deg, rgba(226, 30, 47, 1) 2%, rgba(226, 30, 47, 0) 45%);
+    background: rgb(26, 54, 93);
+    background: linear-gradient(90deg, rgba(26, 54, 93, 1) 26%, rgba(15, 23, 42, 1) 83%);
 }
-
-
-
-
 
 .about-three__play .ripple,
 .about-three__play .ripple:before,
-.about-three__play .ripple:after {
-	-webkit-box-shadow: 0 0 0 0 rgba(247, 148, 29, .3);
-	-moz-box-shadow: 0 0 0 0 rgba(247, 148, 29, .3);
-	-ms-box-shadow: 0 0 0 0 rgba(247, 148, 29, .3);
-	-o-box-shadow: 0 0 0 0 rgba(247, 148, 29, .3);
-	box-shadow: 0 0 0 0 rgba(247, 148, 29, .3);
-}
-
+.about-three__play .ripple:after,
 .about-two__play .ripple,
 .about-two__play .ripple:before,
 .about-two__play .ripple:after {
-	-webkit-box-shadow: 0 0 0 0 rgba(247, 148, 29, .3);
-	-moz-box-shadow: 0 0 0 0 rgba(247, 148, 29, .3);
-	-ms-box-shadow: 0 0 0 0 rgba(247, 148, 29, .3);
-	-o-box-shadow: 0 0 0 0 rgba(247, 148, 29, .3);
-	box-shadow: 0 0 0 0 rgba(247, 148, 29, .3);
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 210, 211, .3);
+    box-shadow: 0 0 0 0 rgba(0, 210, 211, .3);
 }
-
-
-
-
