@@ -395,3 +395,49 @@ button:hover,
 .about-section .image-column .image .video-box {
     background-image: linear-gradient(to top, #00D2D3 0%, #1A365D 100%) !important;
 }
+
+
+/* Enhanced Social Icons Support (Classes and Dashicons) */
+.widget_manzil_about_company .widget-content > li > a[href*="facebook"]:hover::before,
+.widget_manzil_about_company .widget-content > li > a.social-facebook:hover::before {
+  background: linear-gradient(135deg, #1877f2, #0a5dc2) !important;
+  transform: translateX(-50%) scale(1) !important;
+}
+.widget_manzil_about_company .widget-content > li > a[href*="facebook"]:hover,
+.widget_manzil_about_company .widget-content > li > a.social-facebook:hover {
+  border-color: #1877f2 !important;
+  box-shadow: 0 10px 25px rgba(24, 119, 242, 0.5) !important;
+}
+
+.widget_manzil_about_company .widget-content > li > a[href*="instagram"]:hover::before,
+.widget_manzil_about_company .widget-content > li > a.social-instagram:hover::before {
+  background: linear-gradient(135deg, #f58529, #dd2a7b, #8134af) !important;
+  transform: translateX(-50%) scale(1) !important;
+}
+.widget_manzil_about_company .widget-content > li > a[href*="instagram"]:hover,
+.widget_manzil_about_company .widget-content > li > a.social-instagram:hover {
+  border-color: #dd2a7b !important;
+  box-shadow: 0 10px 25px rgba(221, 42, 123, 0.5) !important;
+}
+
+.widget_manzil_about_company .widget-content > li > a[href*="linkedin"]:hover::before,
+.widget_manzil_about_company .widget-content > li > a.social-linkedin:hover::before {
+  background: linear-gradient(135deg, #0077b5, #005885) !important;
+  transform: translateX(-50%) scale(1) !important;
+}
+.widget_manzil_about_company .widget-content > li > a[href*="linkedin"]:hover,
+.widget_manzil_about_company .widget-content > li > a.social-linkedin:hover {
+  border-color: #0077b5 !important;
+  box-shadow: 0 10px 25px rgba(0, 119, 181, 0.5) !important;
+}
+
+.widget_manzil_about_company .widget-content > li > a i.dashicons {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 20px !important;
+  height: 20px !important;
+  font-size: 20px !important;
+  line-height: 20px !important;
+  color: #ffffff !important;
+}
