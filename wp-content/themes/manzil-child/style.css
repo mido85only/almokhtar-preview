@@ -444,3 +444,67 @@ button:hover,
   line-height: 20px !important;
   color: #ffffff !important;
 }
+
+
+/* ============================================================
+   PROMINENT WHATSAPP FLOATING BUTTON (LARGE & GREEN)
+   ============================================================ */
+.sticky-buttons {
+    z-index: 999999 !important;
+}
+
+.sticky-buttons .sb-item {
+    --bg: #25D366 !important;
+    --color: #ffffff !important;
+}
+
+.sticky-buttons .sb-link,
+.sticky-buttons .sb-item a.sb-link,
+#sticky-buttons-1 .sb-link {
+    width: 65px !important;
+    height: 65px !important;
+    min-width: 65px !important;
+    min-height: 65px !important;
+    background-color: #25D366 !important;
+    color: #ffffff !important;
+    border-radius: 50% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    box-shadow: 0 8px 25px rgba(37, 211, 102, 0.5) !important;
+    animation: whatsapp-glow 2s infinite !important;
+    transition: transform 0.3s ease, background-color 0.3s ease !important;
+}
+
+.sticky-buttons .sb-link:hover,
+.sticky-buttons .sb-item a.sb-link:hover,
+#sticky-buttons-1 .sb-link:hover {
+    background-color: #1EBE5D !important;
+    transform: scale(1.1) !important;
+    box-shadow: 0 10px 30px rgba(37, 211, 102, 0.7) !important;
+}
+
+.sticky-buttons .sb-icon,
+.sticky-buttons .sb-icon .fab.fa-whatsapp,
+#sticky-buttons-1 .sb-icon .fab.fa-whatsapp {
+    font-size: 36px !important;
+    width: 36px !important;
+    height: 36px !important;
+    line-height: 36px !important;
+    color: #ffffff !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+@keyframes whatsapp-glow {
+    0% {
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 20px rgba(37, 211, 102, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+    }
+}
