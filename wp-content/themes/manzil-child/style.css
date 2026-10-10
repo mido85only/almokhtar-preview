@@ -53,7 +53,7 @@
 }
 .main-header.header-style-one .nav-outer:before {
  
-    width: 168% !important;
+    width: 200% !important;
 
 }
 .sr7-arrows {
@@ -258,11 +258,16 @@
     color: #01A8CC !important;
     
 }
-.news-detail .inner-box .lower-content .post-meta  ,.news-detail .post-share-options , .news-detail .more-posts{
+.news-detail .inner-box .lower-content .post-meta  ,.news-detail .post-share-options , .news-detail .more-posts {
    display:none !important;
 }
-
-
+.main-header .header-lower .logo-box{
+	margin-top:8px !important
+}
+.main-header .header-lower .logo-box  img{
+  
+    height: 60px !important;
+}
 
 
 /* ============================================================
@@ -314,7 +319,6 @@ button:hover,
     background-color: #1A365D !important;
     background-image: none !important;
 }
-
 
 /* ============================================================
    VIDEO BUTTON & RIPPLE ANIMATION (SALT CYAN PULSE - NO YELLOW)
@@ -395,7 +399,6 @@ button:hover,
 .about-section .image-column .image .video-box {
     background-image: linear-gradient(to top, #00D2D3 0%, #1A365D 100%) !important;
 }
-
 
 /* Enhanced Social Icons Support (Classes and Dashicons) */
 .widget_manzil_about_company .widget-content > li > a[href*="facebook"]:hover::before,
